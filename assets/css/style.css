@@ -16,6 +16,17 @@ body {
 	padding-bottom: 10px;
 }
 
+a {
+ color: white;
+}
+
+a:hover{
+    color: #ef3c48;
+    text-decoration: underline;
+}
+
+
+
 html {
 	scroll-behavior: smooth;
 }
@@ -54,7 +65,7 @@ header a:hover {
 /* MAIN */
 
 main {
-	background-image: linear-gradient(to bottom, #f7b267, #f79955, #f67e4a, #f46046, #f03a47);
+	background-image: linear-gradient(to bottom, #f7b267, #f79955, #f67e4a, #f46046 );
 }
 
 /* BANNER */
@@ -103,6 +114,7 @@ main {
 }
 
 .about-area, .features-area, .pricing-area, .contact-area {
+    /*background-color: #f79d65;*/
 	position: relative;
 	top: 80px;
 	width: 80%;
@@ -126,9 +138,6 @@ main {
 	float: right;
 }
 
-
-
-/* PABLO */
 
 #buttonn {
 	text-align: center !important;
@@ -186,9 +195,6 @@ th {
 	background-color: #f4845f;
 }
 
-.darkest_orange{
-	background-color: #27059;
-}
 
 .gifts {
 	display: grid;
@@ -197,14 +203,14 @@ th {
 	grid-gap: 10%;
 }
 
-/* FIONA */
+
 .h1, .title{
-    color: #f79d65
+    color: white;
     font-family: 'Quicksand', sans-serif;
 }
 #body{
-    background-color: cornsilk
-    color: #f27059
+    background-color: cornsilk;
+    color: #f27059;
     font-family: 'Open Sans', sans-serif;
 }
 #col {
@@ -212,7 +218,7 @@ th {
 }
 
 .h1, .h2, .h3, .h4, .h5{text-shadow: grey="10px";
-    color: #f7b267;
+    color: white;
 }
 
 .card{
@@ -244,12 +250,12 @@ th {
 	color: white;
 }
 
-/* OLI */
 .contact {
   overflow: wrap;
   word-wrap: break-word;
-  background-color: #f79d65;
+  /*background-color: #f79d65;*/
   display: inline-block;
+    margin-bottom: 50px;
 
 }
 
@@ -278,8 +284,6 @@ th {
   color: white;
 }
 /* End of banner contact-page */
-
-
 
 
 /* start of contact form */
@@ -348,20 +352,24 @@ resize: vertical;
    border-radius: 5px;
    outline: none;
    transition: all 0.5s ease;
-   margin-bottom: 40px;
+   margin-bottom: 1px;
 }
 
 
 .btn {
-  margin: auto;
-  width: 92%;
-  height: 50px;
-  text-align: center;
-  line-height: 50px;
-  text-transform: uppercase;
-  font-weight: bold;
-  cursor: pointer;
-  border-radius: 5px;
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 20px ;
+    background-color: #f03a47;
+    width: 92%;
+    height: 50px;
+    text-align: center;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .btn:hover {
@@ -377,10 +385,12 @@ resize: vertical;
   border-radius: 5px; }
   /* End of contact section*/
 
+
   /* Start of customer section */
 
   .customer-service {
     display: inline-block;
+      margin-top: 100px;
   }
 
   .customer-banner {
@@ -424,7 +434,7 @@ resize: vertical;
 			 padding-bottom: 50px;
        font-weight: bold;
        color: white;}
-     }
+
 
 .button {
   background-color: green;
@@ -487,8 +497,8 @@ resize: vertical;
   margin-top: 40px;
 }
 
-/* FOOTER */
 
+/* FOOTER */
 
 .footer {
 	width: 100%;
@@ -496,7 +506,6 @@ resize: vertical;
 	color: #f7b267;
 	background-color: black;
 	margin: 0 auto;
-	padding-top: 80px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;

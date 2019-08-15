@@ -15,5 +15,5 @@ The inspiration for this project was that I wanted to create a movie streaming a
 The technologies used for this project are HTML, CSS and Javascript.
 
 
-Thanks for reading.
+Thanks for reading, Olivier. 
 

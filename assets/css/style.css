@@ -231,18 +231,14 @@ th {
     box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2);
   }
 
-.card-body {
-    flex: none;
-    padding-bottom: 50px;
+.card-footer {
+    display: flex;
+    flex-flow: column;
+    align-items: center !important;
+    justify-items: center !important;
+    background-color: transparent;
 }
 
-.card-text {
-    position: relative;
-}
-
-card-link {
-    position: absolute;
-}
 
  .container { align-self: auto;
     padding: 2px 16px;
@@ -372,7 +368,7 @@ resize: vertical;
 .btn {
     color: white;
     margin-top: 10px;
-    margin-left: 20px ;
+    /*margin: auto;*/
     background-color: #f03a47;
     width: 92%;
     height: 50px;

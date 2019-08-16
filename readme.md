@@ -1,12 +1,19 @@
 
 
-Hello Dear readers.
+# FOMP
 
-This is the readme for our first group project: "FOMP"
+FOMP stands for Films Of My Preference. The end result came out like this: https://Oliviervdh.github.io/FOMP-Movie-app/.
 
-The end result came out like this: https://ollivdh.github.io/FOMP/. 
+## description
 
-Thanks for reading!
+This is a fictional project that was created on a request by our Coach at Becode Ghent.
 
-Peace out, Olli.
+The inspiration for this project was that I wanted to create a movie streaming app that adjust it's selection based on the users mood.
+
+## technologies
+
+The technologies used for this project are HTML, CSS and Javascript.
+
+
+Thanks for reading, Olivier. 
 
